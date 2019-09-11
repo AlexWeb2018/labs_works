@@ -1,0 +1,12 @@
+print('Введите значение точки A: ')
+A = float(input())
+print('Введите значение точки B: ')
+B = float(input())
+print('Введите значение точки C: ')
+C = float(input())
+AC=math.fabs(A-C)
+print('Расстояние отрезка AC равно: ',AC)
+BC=math.fabs(B-C)
+print('Расстояние отрезка BC равно: ',BC)
+Sum=AC+BC
+print('Сумма отрезков AC и BC равно: ',Sum)
