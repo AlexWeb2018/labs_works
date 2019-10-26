@@ -1,0 +1,5 @@
+v1 = int(input("Введите v1 :"))
+v2 = int(input("Введите v2 :"))
+t = int(input("Введите t :"))
+S = int(input("Введите S :"))
+print(S * (v1 * t + v2 * t))
