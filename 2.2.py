@@ -1,4 +1,4 @@
-import random
+0import random
 
 A,C,B = sorted(random.sample(range(-10, 10), 3))
 
