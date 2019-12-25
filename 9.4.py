@@ -53,15 +53,18 @@ sotni = {
     propis = ''
     q = int(N / 100) * 100
     propis += sotni[q]
-    #print(propis)
+  
+
     N -= q 
     if 10 < N and N < 20:
         propis += ' ' + dcat[N]
     else:
         r = N % 10
-        #print("r = ",r)
+        
+
         q = int(N / 10) * 10
-        #print("q = ",q)
+        
+        
         if q !=0:
             propis += ' ' + desyatki[q]
         if r != 0:

@@ -1,6 +1,6 @@
-import random
 
-N = random.randrange(2,10)
+
+N = int(input('N = '))
 #a = [i+1 - N//2-1 for i in range(N)]
 a = [random.randrange(-5,6) for i in range(N)]
 print("N = ", N)

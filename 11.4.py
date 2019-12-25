@@ -3,10 +3,8 @@
 S_start = 1000
 S_end = 1100
 
-P = random.randrange(10,260)/10
-#P = 7
-print('P = ', P)
-coef = 1 + P/100
+P = int(input('P = '))
+coef = 1 + P / 100
 print("Initial Amount = {0}, Percent = {1}, Coef = {2}".format(S_start,P,coef))
 K = 0
 S = S_start

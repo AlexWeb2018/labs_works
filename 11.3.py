@@ -1,8 +1,6 @@
 
 
 N = int(input("N = "))
-#N = 2
-print('N = ', N)
 
 K = 1
 S = 1

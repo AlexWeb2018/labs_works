@@ -6,6 +6,3 @@ B = PowerA3(A)
 print('A = ', A)
 print('B = ', B)
 
-
-
-

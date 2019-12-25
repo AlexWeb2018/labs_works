@@ -3,7 +3,7 @@
 # A2 + A3 + . . . + AN
 
 
-import random
+
 
 N = int(input())
 print('N = ', N)
